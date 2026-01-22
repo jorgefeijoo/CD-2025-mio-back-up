@@ -3,48 +3,48 @@ classDiagram
   
 
     class Autor{
-    +String nombre
-    +String nacionalidad
-    +String fechaNacimiento
+    -String nombre
+    -String nacionalidad
+    -String fechaNacimiento
     }
 
     class Libro{
-    +String nombre
-    +String tipo
-    +String editorial
-    +int año
+    -String nombre
+    -String tipo
+    -String editorial
+    -int año
     }
     
     
     class Lector{
-    +int numSocio
-    +String nombre
-    +String apellidos
-    +String direccion
-    +comprabarMultasPendientes()
+    -int numSocio
+    -String nombre
+    -String apellidos
+    -String direccion
+    -comprabarMultasPendientes()
     }
     
 
 
     class Prestamo{
-    +String fechaInicio
-    +String fechafin
-    +calcularFechaFin()
-    +generarMulta()
+    -String fechaInicio
+    -String fechafin
+    -calcularFechaFin()
+    -generarMulta()
     }
 
     class Multa{
-    +String fechaInicio
-    +String fechaFin
-    +calcularFechaFin()
+    -String fechaInicio
+    -String fechaFin
+    -calcularFechaFin()
 
     }
 
     class Copia{
-    +int identificador
-    +String estado
-    +devolver()
-    +prestar()
+    -int identificador
+    -String estado
+    -devolver()
+    -prestar()
     }
 
 
