@@ -67,13 +67,13 @@ classDiagram
 
     Persona <|-- Alumno
     Persona <|-- Profesor
-    CicloFormativo "1..*" -- "1..*" CompetenciaProfesional
-    CompetenciaProfesional "1..*" -- "1..*" ModuloFormativo
-    Examen "1..*" -- "1" Pregunta
-    ModuloFormativo "1" o-- "1..*" Alumno
-    ModuloFormativo "1" o-- "1..*" Profesor
-    ModuloFormativo "1" *-- "1..*" Examen
-    ModuloFormativo "1" *-- "1..*" Tarea
-    Pregunta "1..*" -- "1..*" Examen
+    CicloFormativo  --  CompetenciaProfesional
+    CompetenciaProfesional -- ModuloFormativo
+    Examen  --  Pregunta
+    ModuloFormativo  o--  Alumno
+    ModuloFormativo  o--  Profesor
+    ModuloFormativo  *--  Examen
+    ModuloFormativo  *--  Tarea
+    Pregunta --  Examen
 
 ```
