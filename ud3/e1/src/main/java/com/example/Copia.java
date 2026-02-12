@@ -43,7 +43,5 @@ public class Copia {
         this.original = original;
     }
 
-    Object getEstado() {
-        throw new UnsupportedOperationException("Not supported yet.");
-    }
+    
 }

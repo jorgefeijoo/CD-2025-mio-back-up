@@ -35,6 +35,6 @@ class LectorTest {
         assertEquals(202, lector.getNumSocio());
         assertEquals("Brais", lector.getNombre());
         assertEquals("García", lector.getApellidos());
-        assertEquals("Av. de Galicia 5", lector.direccion);
+        assertEquals("Av. de Galicia 5", lector.getDireccion());
     }
 }
