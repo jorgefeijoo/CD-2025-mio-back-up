@@ -8,11 +8,16 @@ classDiagram
     -date data
     -date hora
 
+    +void agregarSes() 
+    +boolean registrarParticipante()
+
     }
 
     class Sesions{
     -String titulo
     -String codigoSala
+    +void asignarArticulo()
+    +boolean cambiarSala()
     }
     
     
@@ -24,15 +29,17 @@ classDiagram
    
 
 
-    class artigoCientifico{
+    class ArtigoCientifico{
    -String titulo
    -String tema
    -String corto
    -String largo
+   +String obtenerResumenCorto() 
++boolean validarLongitud() 
   
     }
 
-    class autor{
+    class Autor{
     -String nombreCompleto
     -String email
     }
@@ -43,8 +50,8 @@ classDiagram
     Conferencia "1" --"1..*" Sesions
     Sesions "1"--"1" Conferencia
     Participantes "1..*" -- "1" Conferencia
-    artigoCientifico "1..*"-- "1" Sesions
-    autor "1"--"1..* " artigoCientifico
+    ArtigoCientifico "1..*"-- "1" Sesions
+    Autor "1"--"1..* " ArtigoCientifico
 
     
 ```
