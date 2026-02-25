@@ -1,27 +1,18 @@
 package com.e3;
 
 public class Partipantes {
-    private String orador;
-    private String publico;
+   private String tipo;
 
-    public String getOrador() {
-        return orador;
-    }
+   public Partipantes(String tipo) {
+    this.tipo = tipo;
+}
 
-    public void setOrador(String orador) {
-        this.orador = orador;
-    }
+   public String getTipo() {
+    return tipo;
+   }
 
-    public String getPublico() {
-        return publico;
-    }
+   public void setTipo(String tipo) {
+    this.tipo = tipo;
+   }
 
-    public void setPublico(String publico) {
-        this.publico = publico;
-    }
-
-    public Partipantes(String orador, String publico) {
-        this.orador = orador;
-        this.publico = publico;
-    } 
 }

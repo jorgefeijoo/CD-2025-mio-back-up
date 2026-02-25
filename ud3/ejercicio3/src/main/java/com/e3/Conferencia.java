@@ -7,8 +7,8 @@ public class Conferencia<Participantes> {
     private String local;
     private String data;
 
-    private List<Sesions> sesiones; 
-    private List<Participantes> participantes;
+    private List<Sesions> Sesions; 
+    private List<Participantes> Participantes;
 
     public Conferencia(String nome, String local, String data) {
         this.nome = nome;

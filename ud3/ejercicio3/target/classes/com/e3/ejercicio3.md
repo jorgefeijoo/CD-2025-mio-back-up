@@ -22,8 +22,7 @@ classDiagram
     
     
     class Participantes{
-    -String orador
-    -String publico
+    -String tipo
     }
     
    
@@ -32,9 +31,8 @@ classDiagram
     class ArtigoCientifico{
    -String titulo
    -String tema
-   -String corto
-   -String largo
-   +String obtenerResumenCorto() 
+   -String tipo
++String obtenerResumenCorto() 
 +boolean validarLongitud() 
   
     }
@@ -46,12 +44,13 @@ classDiagram
 
     
 
-
-    Conferencia "1" --"1..*" Sesions
-    Sesions "1"--"1" Conferencia
+Conferencia "1" *-- "1..*" Sesions
+    
+    
     Participantes "1..*" -- "1" Conferencia
-    ArtigoCientifico "1..*"-- "1" Sesions
-    Autor "1"--"1..* " ArtigoCientifico
+    Participantes "1..*" -- "1..*" Sesions
+    ArtigoCientifico "1..*" -- "1" Sesions
+    Autor "1" -- "1..*" ArtigoCientifico
 
     
 ```
