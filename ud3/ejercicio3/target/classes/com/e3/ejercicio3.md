@@ -21,8 +21,14 @@ classDiagram
     }
     
     
-    class Participantes{
-    -String tipo
+    class Participante{
+    -String nombre
+    -String email
+    }
+
+    class Inscricion{
+    -Conferencia conferencia
+    -Participantes participantes
     }
     
    
@@ -46,9 +52,10 @@ classDiagram
 
 Conferencia "1" *-- "1..*" Sesions
     
-    
-    Participantes "1..*" -- "1" Conferencia
-    Participantes "1..*" -- "1..*" Sesions
+    Participante "1..*" -- "1" Inscricion
+    Conferencia "1..*" -- "1" Inscricion
+    Participante "1..*" -- "1" Conferencia
+    Participante "1..*" -- "1..*" Sesions
     ArtigoCientifico "1..*" -- "1" Sesions
     Autor "1" -- "1..*" ArtigoCientifico
 
