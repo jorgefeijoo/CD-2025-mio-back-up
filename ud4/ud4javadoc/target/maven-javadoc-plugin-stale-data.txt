@@ -1,0 +1,49 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'1.8'
+-sourcepath
+'/home/vagrant/Desktop/repost/CD2025 mio backup/ud4/ud4javadoc/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/vagrant/Desktop/repost/CD2025 mio backup/ud4/ud4javadoc/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'ud4javadoc 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' '/home/vagrant/Desktop/repost/CD2025 mio backup/ud4/ud4javadoc/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'ud4javadoc 1.0-SNAPSHOT API'
+ud4.javadoc
+/home/vagrant/Desktop/repost/CD2025 mio backup/ud4/ud4javadoc/src/main/java = 1772094344783
+/home/vagrant/Desktop/repost/CD2025 mio backup/ud4/ud4javadoc/target/reports/apidocs/allpackages-index.html = 1772620473475
+/home/vagrant/Desktop/repost/CD2025 mio backup/ud4/ud4javadoc/target/reports/apidocs/copy.svg = 1772620473503
+/home/vagrant/Desktop/repost/CD2025 mio backup/ud4/ud4javadoc/target/reports/apidocs/tag-search-index.js = 1772620473477
+/home/vagrant/Desktop/repost/CD2025 mio backup/ud4/ud4javadoc/target/reports/apidocs/index-all.html = 1772620473487
+/home/vagrant/Desktop/repost/CD2025 mio backup/ud4/ud4javadoc/target/reports/apidocs/allclasses-index.html = 1772620473474
+/home/vagrant/Desktop/repost/CD2025 mio backup/ud4/ud4javadoc/target/reports/apidocs/link.svg = 1772620473503
+/home/vagrant/Desktop/repost/CD2025 mio backup/ud4/ud4javadoc/target/reports/apidocs/type-search-index.js = 1772620473476
+/home/vagrant/Desktop/repost/CD2025 mio backup/ud4/ud4javadoc/target/reports/apidocs/search.js = 1772620473506
+/home/vagrant/Desktop/repost/CD2025 mio backup/ud4/ud4javadoc/target/reports/apidocs/overview-tree.html = 1772620473462
+/home/vagrant/Desktop/repost/CD2025 mio backup/ud4/ud4javadoc/target/reports/apidocs/package-search-index.js = 1772620473476
+/home/vagrant/Desktop/repost/CD2025 mio backup/ud4/ud4javadoc/target/reports/apidocs/search.html = 1772620473489
+/home/vagrant/Desktop/repost/CD2025 mio backup/ud4/ud4javadoc/target/reports/apidocs/member-search-index.js = 1772620473477
+/home/vagrant/Desktop/repost/CD2025 mio backup/ud4/ud4javadoc/target/reports/apidocs/stylesheet.css = 1772620473502
+/home/vagrant/Desktop/repost/CD2025 mio backup/ud4/ud4javadoc/target/reports/apidocs/script.js = 1772620473502
+/home/vagrant/Desktop/repost/CD2025 mio backup/ud4/ud4javadoc/target/reports/apidocs/search-page.js = 1772620473507
+/home/vagrant/Desktop/repost/CD2025 mio backup/ud4/ud4javadoc/target/reports/apidocs/element-list = 1772620473435
+/home/vagrant/Desktop/repost/CD2025 mio backup/ud4/ud4javadoc/target/reports/apidocs/index.html = 1772620473493
+/home/vagrant/Desktop/repost/CD2025 mio backup/ud4/ud4javadoc/target/reports/apidocs/module-search-index.js = 1772620473476
+/home/vagrant/Desktop/repost/CD2025 mio backup/ud4/ud4javadoc/target/reports/apidocs/help-doc.html = 1772620473500

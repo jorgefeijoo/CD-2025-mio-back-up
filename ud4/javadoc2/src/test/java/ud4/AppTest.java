@@ -1,4 +1,4 @@
-package ud4.javadoc;
+package ud4;
 
 import org.junit.jupiter.api.Test;
 
