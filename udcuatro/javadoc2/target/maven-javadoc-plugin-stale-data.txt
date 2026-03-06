@@ -1,0 +1,47 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-encoding
+'UTF-8'
+-protected
+-source
+'21'
+-sourcepath
+'/home/vagrant/Desktop/vagrant/CD-2025-mio-back-up/udcuatro/javadoc2/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2026. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/vagrant/Desktop/vagrant/CD-2025-mio-back-up/udcuatro/javadoc2/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'javadoc2 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'javadoc2 1.0-SNAPSHOT API'
+udcuatro
+/home/vagrant/Desktop/vagrant/CD-2025-mio-back-up/udcuatro/javadoc2/src/main/java = 1772836537559
+/home/vagrant/Desktop/vagrant/CD-2025-mio-back-up/udcuatro/javadoc2/target/reports/apidocs/allpackages-index.html = 1772837436969
+/home/vagrant/Desktop/vagrant/CD-2025-mio-back-up/udcuatro/javadoc2/target/reports/apidocs/copy.svg = 1772837436996
+/home/vagrant/Desktop/vagrant/CD-2025-mio-back-up/udcuatro/javadoc2/target/reports/apidocs/tag-search-index.js = 1772837436971
+/home/vagrant/Desktop/vagrant/CD-2025-mio-back-up/udcuatro/javadoc2/target/reports/apidocs/index-all.html = 1772837436980
+/home/vagrant/Desktop/vagrant/CD-2025-mio-back-up/udcuatro/javadoc2/target/reports/apidocs/allclasses-index.html = 1772837436966
+/home/vagrant/Desktop/vagrant/CD-2025-mio-back-up/udcuatro/javadoc2/target/reports/apidocs/link.svg = 1772837436997
+/home/vagrant/Desktop/vagrant/CD-2025-mio-back-up/udcuatro/javadoc2/target/reports/apidocs/type-search-index.js = 1772837436971
+/home/vagrant/Desktop/vagrant/CD-2025-mio-back-up/udcuatro/javadoc2/target/reports/apidocs/search.js = 1772837436998
+/home/vagrant/Desktop/vagrant/CD-2025-mio-back-up/udcuatro/javadoc2/target/reports/apidocs/overview-tree.html = 1772837436956
+/home/vagrant/Desktop/vagrant/CD-2025-mio-back-up/udcuatro/javadoc2/target/reports/apidocs/package-search-index.js = 1772837436971
+/home/vagrant/Desktop/vagrant/CD-2025-mio-back-up/udcuatro/javadoc2/target/reports/apidocs/search.html = 1772837436981
+/home/vagrant/Desktop/vagrant/CD-2025-mio-back-up/udcuatro/javadoc2/target/reports/apidocs/member-search-index.js = 1772837436971
+/home/vagrant/Desktop/vagrant/CD-2025-mio-back-up/udcuatro/javadoc2/target/reports/apidocs/stylesheet.css = 1772837436993
+/home/vagrant/Desktop/vagrant/CD-2025-mio-back-up/udcuatro/javadoc2/target/reports/apidocs/script.js = 1772837436995
+/home/vagrant/Desktop/vagrant/CD-2025-mio-back-up/udcuatro/javadoc2/target/reports/apidocs/search-page.js = 1772837436998
+/home/vagrant/Desktop/vagrant/CD-2025-mio-back-up/udcuatro/javadoc2/target/reports/apidocs/element-list = 1772837436929
+/home/vagrant/Desktop/vagrant/CD-2025-mio-back-up/udcuatro/javadoc2/target/reports/apidocs/index.html = 1772837436983
+/home/vagrant/Desktop/vagrant/CD-2025-mio-back-up/udcuatro/javadoc2/target/reports/apidocs/module-search-index.js = 1772837436970
+/home/vagrant/Desktop/vagrant/CD-2025-mio-back-up/udcuatro/javadoc2/target/reports/apidocs/help-doc.html = 1772837436991
