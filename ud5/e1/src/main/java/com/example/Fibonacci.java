@@ -20,14 +20,14 @@ public class Fibonacci {
         }
 
         /**
-         * @return si n es 0 devuelve 0
+         * si n es 0 devuelve 0
          */
         if (n == 0) {
             return BigInteger.ZERO;
         }
 
         /**
-         * @return si n es 1 devuelve 1
+         * si n es 1 devuelve 1
          */
         if (n == 1) {
             return BigInteger.ONE;
@@ -38,7 +38,7 @@ public class Fibonacci {
         BigInteger resultado = BigInteger.ZERO;
 
         /**
-         * A partir del 2 el resultado sera el valor del anterior mas el actual
+         * A partir del 2 el resultado sera la suma del valor del anterior mas el actual
          */
         for (int i = 2; i <= n; i++) {
             resultado = anterior.add(actual);
