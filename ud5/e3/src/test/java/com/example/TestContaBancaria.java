@@ -12,7 +12,14 @@ public class TestContaBancaria {
         assertEquals("Jorge", conta.getTitular());
         assertEquals(0, conta.getSaldo());
     }
+    @Test
+    void TestSetTitular(){
+        ContaBancaria conta = new ContaBancaria();
+        conta.setTitular("anxo");
+        assertEquals("anxo", conta.getTitular());
+    }
     
+
     @Test
     void testConstructorPorDefecto(){
         ContaBancaria conta = new ContaBancaria();
