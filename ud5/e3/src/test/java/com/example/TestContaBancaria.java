@@ -6,6 +6,12 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.Test;
 
 public class TestContaBancaria {
+    @Test 
+    void TestConstructor(){
+        ContaBancaria conta = new ContaBancaria("Jorge", 0);
+        assertEquals("Jorge", conta.getTitular());
+        assertEquals(0, conta.getSaldo());
+    }
     
     @Test
     void testConstructorPorDefecto(){
