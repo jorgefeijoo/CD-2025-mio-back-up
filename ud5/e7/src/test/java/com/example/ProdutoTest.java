@@ -69,4 +69,13 @@ public class ProdutoTest {
             p.setNome("");
         });
     }
+
+     @Test
+    void testModificarNomeNulo() {
+        Produto p = new Produto("Correcto", 10.0);
+
+        assertThrows(IllegalArgumentException.class, () -> {
+            p.setNome(null);
+        });
+    }
 }
